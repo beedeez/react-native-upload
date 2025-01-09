@@ -4,7 +4,7 @@ require "json"
  package = JSON.parse(json).deep_symbolize_keys
 
  Pod::Spec.new do |s|
-   s.name = "react-native-upload"
+   s.name = "react-native-background-upload"
    s.version = package[:version]
    s.license = { type: "MIT" }
    s.homepage = "https://github.com/appfolio/react-native-upload"
